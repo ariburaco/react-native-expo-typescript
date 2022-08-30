@@ -16,7 +16,7 @@ export default function ModalScreen() {
         lightColor="#eee"
         darkColor="rgba(255,255,255,0.1)"
       />
-      <Text style={styles.title}>{count}</Text>
+      <Text style={styles.title}>Count: {count}</Text>
       <EditScreenInfo path="/screens/ModalScreen.tsx" />
       <StatusBar style={Platform.OS === "ios" ? "light" : "auto"} />
     </View>
